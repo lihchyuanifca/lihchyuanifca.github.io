@@ -6,6 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Thye Lih Chyuan - Resume</title>
+    <style>
+        /* Additional styles for enhanced design */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        section {
+            background-color: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        /* Expandable sections */
+        .expandable-container {
+            margin-top: 20px;
+        }
+
+        .expandable-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-out;
+        }
+
+        input[type="checkbox"] {
+            display: none;
+        }
+
+        input[type="checkbox"]:checked + .expandable-content {
+            max-height: 1000px; /* Adjust based on content height */
+            transition: max-height 0.3s ease-in;
+        }
+    </style>
 </head>
 
 <body>
@@ -25,124 +79,44 @@
 
     <section id="experience" class="container">
         <h2>Career History</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h4>Senior Consultant at IFCA MSC Berhad</h4>
+                    <p>Nov 2022 - Present (1 year 1 month)</p>
+                    <ul>
+                        <li>Managed projects for HR and Property software solutions (HRX and PropertyX) in IFCA Southern.</li>
+                        <li>Provided exemplary customer support, addressing client inquiries, and resolving reported issues in a timely and professional manner.</li>
+                    </ul>
+                </div>
+                <div class="timeline-date">Nov 2022</div>
+            </div>
 
-        <article>
-            <h3>Senior Consultant at IFCA MSC Berhad</h3>
-            <p>Nov 2022 - Present (1 year 1 month)</p>
-            <h4>Key Responsibilities:</h4>
-            <ul>
-                <li>Managed projects for HR and Property software solutions (HRX and PropertyX) in IFCA Southern.</li>
-                <li>Provided exemplary customer support, addressing client inquiries, and resolving reported issues in a timely and professional manner.</li>
-                <li>Conducted comprehensive testing of software products and proposed enhancement strategies to improve product quality.</li>
-                <li>Oversaw end-to-end project implementation, ensuring on-time delivery and within budget.</li>
-                <li>Conducted training sessions to facilitate client adoption of software products.</li>
-                <li>Developed and maintained project management documentation, including project plans and progress reports.</li>
-                <li>Maintained clear and professional communication with customers throughout the project lifecycle, effectively managing and escalating issues as needed.</li>
-                <li>Collaborated with the sales team to support product sales demos, demonstrating the capabilities and benefits of software products to potential clients.</li>
-                <li>Took a leadership role in the implementation of the HR product (HRX) for clients, coordinating with cross-functional teams and acting as a subject matter expert.</li>
-            </ul>
-        </article>
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <h4>Project Manager at Visual Solutions (M) Sdn Bhd</h4>
+                    <p>Aug 2016 - Nov 2022 (6 years 4 months)</p>
+                    <ul>
+                        <li>Project Manager of the Malaysia Johor branch.</li>
+                        <li>Led the successful delivery of multiple high-value projects, with a combined project value exceeding several million ringgit.</li>
+                    </ul>
+                </div>
+                <div class="timeline-date">Aug 2016</div>
+            </div>
+        </div>
+        <!-- End of Timeline Section -->
 
-        <article>
-            <h3>Project Manager at Visual Solutions (M) Sdn Bhd</h3>
-            <p>Aug 2016 - Nov 2022 (6 years 4 months)</p>
-            <h4>Key Achievement:</h4>
-            <ul>
-                <li>Project Manager of the Malaysia Johor branch.</li>
-                <li>Led the successful delivery of multiple high-value projects, with a combined project value exceeding several million ringgit.</li>
-                <li>Consistently achieved the highest performance rating for project delivery over the past six years, as recognized by management and stakeholders.</li>
-                <li>Successfully implemented payroll systems for various organizations, including HPI Resource Berhad & Harta packaging (a member of OJI group), United Kotak Berhad, Kerry Group (MY, SG, ID, PH), Kulim Malaysia Berhad (a member of JCorp), Gleneagle Medini Hospital, Hitachi Cable, Apollo Food, Honda Autoparts, White Horse Ceramic, Shimano Components, JK Wire, Panasonic AVC, Paragon Education, Tian Li Property, Solid Automotive, Dan Kaffe & etc.</li>
-                <li>Successfully recruited and trained a team of high-performing professionals, resulting in a 30% increase in the branch's overall productivity and a 25% reduction in project delivery time.</li>
-            </ul>
-            <h4>Key Responsibilities:</h4>
-	<h4>Project Management:</h4>
-            <ul>
-            <li>Led the implementation of the Human Resource Management System (HRMS), Employee Self Service (ESS), and Human Resource Strategy System (HRSS) modules, ensuring timely and successful project delivery as per gap analysis.</li>
-	<li>Conducted requirement study for all company HR policy and payroll related processes, streamlining them for increased efficiency and accuracy.</li>
-	<li>Coordinated the preparation of internal and external reports by gathering, analyzing, and summarizing data and information from various departments.</li>
-	<li>Planned, managed, and monitored minor projects from concepts through implementation, ensuring adherence to project timelines and budgets.</li>
-	<li>Performed application testing prior to customer release, ensuring the software met all requirements and standards.</li>
-	<li>Prepared tracking documents for meetings and updated them accordingly, ensuring all stakeholders were informed of project status and changes.</li>
-            </ul>
-	<h4>Human Resource Related by Working with Client’s Company:</h4>
-                <ul>
-	<li>Prepared and amended HR documents as necessary, including employment contracts and recruitment guides, maintaining legal compliance and consistency across the organization.</li>
-	<li>Reviewed and renewed company policies, ensuring they are up-to-date with legal requirements and company goals.
-	<li>Processed monthly payroll, including preparing salary reports, calculating overtime, and generating statutory deduction reports for submission.</li>
-	<li>Employer monthly/yearly contributions and responsibility, ensuring timely and accurate payment to employees.</li>
-	<li>Administered staff medical insurance and related benefit programs by providing application information, verifying submissions and approval notifications, and addressing any issues or concerns.</li>
-	<li>Conducted daily/weekly checks of staff performance in terms of punctuality and attendance, ensuring adherence to company policies and standards.</li>
-            </ul>
-
-        
-
-        <h3>Software Programmer at Audit Online Solution Sdn Bhd</h3>
-
-	<p>Mar 2015 - Apr 2016 (1 year 2 months)</p>
-	<h4>Key Achievements:</h4>
-            <ul>
-	<li>Successfully closed over 3 software sales within a months, resulting in sales percentage increase.</li>
-	<li>Reduced customer complaints by providing prompt and effective software support.</li>
-	<li>Designed and delivered a comprehensive software training program, resulting in an increase in customer satisfaction and proficiency.</li>
-	<li>Spearheaded the implementation of feature or enhancement to the software, resulting in positive customer feedback and increased sales.</li>
-	<h4>Key Responsibilities:</h4>
-	<li>Conducted software demos for prospective clients and followed up with them to close the sale.</li>
-	<li>Developed and executed marketing plans to promote the software to target audiences and increase sales.</li>
-	<li>Provided technical support to clients, including bug fixing, updates, and any programming work related to the software.</li>
-	<li>Delivered software training to clients to ensure they are comfortable with and proficient in using the software.</li>
-	<li>Developed and maintained positive relationships with clients to ensure customer satisfaction and retention.</li>
-	<li>Collaborated with the development team to keep the software up-to-date with the latest features and functionality that meet the needs of the clients.</li>
-	<li>Liaised with the customer support team to ensure that any issues or concerns are addressed promptly and efficiently.</li>
-	<li>Continuously updated knowledge of the software and related technologies to provide the best support and sales experience to clients.</li>
-            </ul>
-        <h3>Sound & Lighting Technical at Kedai Muzik Soon Kim Hok</h3>
-	<p>Jun 2010 - Jan 2015 (4 years 8 months)</p>
-	<h4>Key Responsibilities:</h4>
-            <ul>
-<li>Coordinated and executed sound and lighting requirements for a variety of events, including concerts, conferences, exhibitions, and corporate events.</li>
-<li>Conducted on-site inspections and evaluated sound and lighting needs, ensuring all equipment is in good condition and meets safety standards.</li>
-<li>Developed and managed project timelines and budgets, ensuring timely and cost-effective execution of events.</li>
-<li>Worked with event planners, vendors, and clients to ensure their needs are met and expectations are exceeded.</li>
-<li>Conducted sound and lighting checks before and during events, making adjustments as necessary to ensure high-quality audio and visual experiences.</li>
-<li>Managed and supervised event crews, including sound and lighting technicians, ensuring that everyone adheres to safety protocols and performs their roles effectively.</li>
-<li>Conducted equipment and inventory checks, ensuring all equipment is properly maintained and serviced.</li>
-<li>Managed vendor relationships, including negotiating contracts and ensuring timely payment and delivery of services.</li></ul>
-        </article>
+        <!-- Expandable Section -->
+        <div class="expandable-container container">
+            <h2>More Experience</h2>
+            <input type="checkbox" id="expand-experience">
+            <div class="expandable-content">
+                <!-- Add more timeline items as needed -->
+            </div>
+        </div>
+        <!-- End of Expandable Section -->
     </section>
 
-
-    <section id="skills" class="container">
-        <h2>Skills</h2>
-        <p>Train the Trainer, PHP Programming, C Programming Language, Power BI, Human Resources Software (FlexHR), HTML Programming, JQuery, JavaScript, PostgreSQL, SQL Server, HRDF Certified Trainer, Team Work, Problem Solving, Time Management, HR Management System (HRX)</p>
-    </section>
-
-    <section id="languages" class="container">
-        <h2>Languages</h2>
-        <p>Bahasa Malaysia, English, Mandarin</p>
-    </section>
-
-    <section id="education" class="container">
-        <h2>Education</h2>
-        <p>Bachelor of Information Technology (Honours) (Security Technology) from Multimedia University - Finished 2015</p>
-        <p>Macromedia Flash Professional 8 Certificate</p>
-        <p>Participating in the MMU Programming competition</p>
-        <p>Member of Chinese Language Society</p>
-
-        <p>Diploma of Business Information Systems from Multimedia University - Finished 2012</p>
-        <p>Member of Chinese language society</p>
-    </section>
-
-    <section id="certifications" class="container">
-        <h2>Licences & Certifications</h2>
-        <p>HRDCorp Certified Trainer - Issued by Malaysia HRDCorp</p>
-        <p>Aug 2023 - Current</p>
-        <p>Certificate Id: 3888ca90-4bcc-11ee-a952-1f1d85564861</p>
-        <p>Trainer Id: 16279</p>
-    </section>
-
-    <footer class="container">
-        <p>This resume is hosted on <a href="https://github.com/yourusername/yourrepository">GitHub</a>.</p>
-    </footer>
 </body>
 
 </html>
